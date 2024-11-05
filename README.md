@@ -14,7 +14,7 @@ Then you update the Data Source path to the .db file in the FamilyContext. It is
 
 Here is the entity class diagram:
 
-![d](https://github.com/TroelsMortensen/FamilyEfc/blob/master/FamilyEfc/FamilyEntityClassDiagram.png);
+![d](https://github.com/TroelsMortensen/FamilyEfc/blob/master/FamilyEfc/FamilyEntityClassDiagram.png)
 
 ## The exercises
 In the Queries file you will find a number of empty unit test methods.
