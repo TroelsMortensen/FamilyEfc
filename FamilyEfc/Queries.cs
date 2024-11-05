@@ -24,6 +24,11 @@ public class Queries(ITestOutputHelper printer)
         List<Adult> adults = ctx.Adults.Take(10).ToList();
         printer.PrintList(adults);
     }
+    
+    /**
+     * Below are questions to be answered.
+     * Challenge: Use only the Families DbSet: ctx.Families.
+     */
 
     // answer 151
     [Fact]
