@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using FamilyEfc.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace FamilyEfc;

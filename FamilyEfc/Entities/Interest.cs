@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace FamilyEfc.Entities;
 
-namespace FamilyEfc;
-
-public partial class Interest
+public class Interest
 {
     public string Type { get; set; } = null!;
 
     public string? Description { get; set; }
 
-    public virtual ICollection<Child> Children { get; set; } = new List<Child>();
+    public ICollection<Child> Children { get; set; } = new List<Child>();
 }

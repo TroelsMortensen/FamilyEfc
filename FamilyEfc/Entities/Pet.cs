@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace FamilyEfc.Entities;
 
-namespace FamilyEfc;
-
-public partial class Pet
+public class Pet
 {
     public int Id { get; set; }
 
@@ -19,7 +16,7 @@ public partial class Pet
 
     public string? FamilyStreetName { get; set; }
 
-    public virtual Child? Child { get; set; }
+    public Child? Child { get; set; }
 
-    public virtual Family? Family { get; set; }
+    public Family? Family { get; set; }
 }

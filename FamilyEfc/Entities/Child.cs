@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace FamilyEfc.Entities;
 
-namespace FamilyEfc;
-
-public partial class Child
+public class Child
 {
     public int Id { get; set; }
 
@@ -27,9 +24,9 @@ public partial class Child
 
     public string? Sex { get; set; }
 
-    public virtual Family? Family { get; set; }
+    public Family? Family { get; set; }
 
-    public virtual ICollection<Pet> Pets { get; set; } = new List<Pet>();
+    public ICollection<Pet> Pets { get; set; } = new List<Pet>();
 
-    public virtual ICollection<Interest> InterestsTypes { get; set; } = new List<Interest>();
+    public ICollection<Interest> InterestsTypes { get; set; } = new List<Interest>();
 }
