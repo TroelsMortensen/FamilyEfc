@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.Json;
 using Xunit.Abstractions;
 
-namespace BookShopEfc;
+namespace FamilyEfc;
 
 public static class ListToTable
 {
